@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 const AboutUs = () => {
   return (
     <section className="bg-gray-100 mt-[15vh]">
@@ -93,9 +93,10 @@ const AboutUs = () => {
       <div className="text-center py-12 bg-gray-600 text-white">
         <h3 className="text-2xl font-bold">Looking for the Best TVS Service?</h3>
         <p className="mt-2">Book an appointment today and experience excellence!</p>
-        <a href="/contact" className="mt-4 inline-block bg-white text-blue-700 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-gray-200 transition">
+      <Link to="/contact" > 
+      <p className="mt-4 inline-block bg-white text-blue-700 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-gray-200 transition">
           Contact Us
-        </a>
+        </p>  </Link> 
       </div>
     </section>
   );
