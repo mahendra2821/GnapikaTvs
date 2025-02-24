@@ -43,7 +43,7 @@ const Footer = () => {
 
           <h3 className="mt-4 text-lg font-semibold">We Are Available In</h3>
           <ul className="mt-2 space-y-1 text-gray-300">
-            <li>📍 Satyanapalli</li>
+            <li>📍  Satrampadu</li>
             <li>📍 Old Bus Stand</li>
             <li>📍 Kakinadagudem</li>
             <li>📍 Tadepalligudem</li>

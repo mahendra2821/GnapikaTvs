@@ -91,7 +91,7 @@ const Service = () => {
 
           {/* Contact Details */}
           <div className="mt-4 space-y-3">
-            <p><strong>📍 Location:</strong> Satyanapalli, Eluru, Andhra Pradesh</p>
+            <p><strong>📍 Location:</strong>  Satrampadu, Eluru, Andhra Pradesh</p>
             <p><strong>📧 E-Mail:</strong> gnapikatvs@gmail.com</p>
             <p><strong>📞 Call Us:</strong> +91-7995705959</p>
           </div>

@@ -5,8 +5,8 @@ const AboutUs = () => {
   return (
     <section className="bg-gray-100 mt-[15vh]">
       {/* Hero Section */}
-      <div className="relative w-full h-72 mt-15vh] bg-cover bg-center flex items-center justify-center text-center text-white" 
-        style={{ backgroundImage: `url('https://cdn4.singleinterface.com/files/enterprise/coverphoto/132996/06-TVS-Corporate-Range-Banner-Revised-1366x450px-01-12-08-24-03-10-57.jpg')` }}>
+      <div className="relative w-full h-72 mt-15vh] bg-cover bg-center flex items-center justify-center text-center text-white mb-5vh" 
+        style={{ backgroundImage: `url('https://cdn4.singleinterface.com/files/enterprise/coverphoto/132996/06-TVS-Corporate-Range-Banner-Revised-1366x450px-01-12-08-24-03-10-57.jpg')`, }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <motion.h2 
           className="relative text-4xl font-bold z-10"

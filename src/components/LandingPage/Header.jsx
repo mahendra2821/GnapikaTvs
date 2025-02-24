@@ -22,7 +22,7 @@ const Header = () => {
       <nav className="bg-white shadow-md py-3 px-6 flex justify-between items-center relative">
         {/* Logo */}
         <div className="text-xl font-bold text-blue-900 flex items-center space-x-2">
-          <img src="/assets/Gnapika_logo.jpg" alt="Logo" className="h-12" />
+        <Link to="/"> <img src="/assets/Gnapika_logo.jpg" alt="Logo" className="h-12" /></Link>  
         </div>
 
         {/* Desktop Menu */}
