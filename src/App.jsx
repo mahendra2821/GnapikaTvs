@@ -9,7 +9,7 @@ import Service from './components/ThirdPage/Service';
 import Blog from './components/FourthPage/Blog';
 import Contact from './components/ContactPage/Contact';
 import AboutUs from './components/AboutUs/AboutUs';
-
+import TestRide from './Pages/TestRide';
 
 
 const App = () => {
@@ -26,6 +26,7 @@ const App = () => {
            <Route path="/blog" element={<Blog />} /> 
            <Route path="/contact" element={<Contact />} /> 
            <Route path="/aboutus" element={<AboutUs />} /> 
+           <Route path="/testride" element={<TestRide />} /> 
           
        
 

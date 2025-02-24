@@ -6,42 +6,36 @@ const blogs = [
     title: "Why Regular Bike Servicing is Essential?",
     excerpt: "Keeping your TVS two-wheeler in top condition ensures better performance, safety, and longevity. Learn why routine maintenance is a must!",
     image: "/assets/WhyServiceingEssentials.jpg",
-    link: "#",
   },
   {
     id: 2,
     title: "How Gnapika TVS Ensures Top-Quality Repairs?",
     excerpt: "From skilled technicians to genuine spare parts, discover how we maintain the highest standards in two-wheeler servicing.",
     image: "/assets/GnapikaTVSTopQualityRepairs.jpg",
-    link: "#",
   },
   {
     id: 3,
     title: "7-Day Service Support: Convenience at Its Best",
     excerpt: "Our TVS Service Center operates 7 days a week, ensuring you get the service you need, when you need it!",
     image: "/assets/Tvs7daysService.jpg",
-    link: "#",
   },
   {
     id: 1,
     title: "Why Regular Bike Servicing is Essential?",
     excerpt: "Keeping your TVS two-wheeler in top condition ensures better performance, safety, and longevity. Learn why routine maintenance is a must!",
     image: "/assets/WhyServiceingEssentials.jpg",
-    link: "#",
   },
   {
     id: 2,
     title: "How Gnapika TVS Ensures Top-Quality Repairs?",
     excerpt: "From skilled technicians to genuine spare parts, discover how we maintain the highest standards in two-wheeler servicing.",
     image: "/assets/GnapikaTVSTopQualityRepairs.jpg",
-    link: "#",
   },
   {
     id: 3,
     title: "7-Day Service Support: Convenience at Its Best",
     excerpt: "Our TVS Service Center operates 7 days a week, ensuring you get the service you need, when you need it!",
     image: "/assets/Tvs7daysService.jpg",
-    link: "#",
   },
 ];
 
@@ -60,12 +54,12 @@ const Blog = () => {
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-800">{blog.title}</h3>
               <p className="text-gray-600 mt-2">{blog.excerpt}</p>
-              <a
-                href={blog.link}
+              <button
+              
                 className="inline-block mt-4 text-blue-600 hover:text-blue-800 font-bold"
               >
                 Read More →
-              </a>
+              </button>
             </div>
           </div>
         ))}

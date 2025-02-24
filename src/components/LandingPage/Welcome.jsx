@@ -1,21 +1,3 @@
-// import heroImg2 from "../../assets/welcomebanner.jpg"; // Second image
-
-// const Welcome = () => {
-//   return (
-//     <section className=" w-full h-[300px] md:h-[500px] lg:h-[600px] ">
-
-
-//       <img
-//         src={heroImg2}
-//         alt="Hero 2"
-//         className=" w-full h-full "
-//       />
-//     </section>
-//   );
-// };
-
-// export default Welcome;
-
 
 
 import React from "react";
