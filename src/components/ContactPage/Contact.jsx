@@ -23,7 +23,7 @@ const Contact = () => {
           <div className="mt-6 space-y-4">
             <div className="flex items-center space-x-4">
               <span className="text-blue-600 text-xl">📍</span>
-              <p> Satrampadu, Eluru, Andhra Pradesh 534002</p>
+              <p> 25-9-39, SANTI NAGAR, Eluru, Eluru, West Godavari-534001, Andhra Pradesh</p>
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-blue-600 text-xl">📧</span>
