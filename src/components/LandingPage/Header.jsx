@@ -11,7 +11,7 @@ const Header = () => {
       <div className="bg-blue-900 text-white text-sm py-2 overflow-hidden ">
         <div className="relative flex w-full">
           <div className="animate-marquee flex space-x-10 min-w-full ml-[15vw]">
-            <span>📍 SATRAMPADU, ELURU, ANDHRA PRADESH 534007</span>
+            <span>📍 25-9-39, SANTI NAGAR, Eluru, Eluru, West Godavari-534001, Andhra Pradesh</span>
             <span>📞 +91-7995705959</span>
             <span>🕘 9 AM TO 9 PM</span>
           </div>
