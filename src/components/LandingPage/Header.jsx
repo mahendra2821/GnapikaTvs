@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import "./Header.css"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,6 +19,10 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+
+
+
 
       {/* Navbar */}
       <nav className="bg-white shadow-md py-3 px-6 flex justify-between items-center relative">
